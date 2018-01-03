@@ -19,7 +19,7 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}!"
   end
 
-  get '/multiply' do
+  post '/multiply' do
     erb :multiply
   end
 
