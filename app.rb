@@ -20,7 +20,8 @@ class App < Sinatra::Base
   end
 
   post '/multiply/:number1/:number2' do
-    
+    @number1 = params[:number1]
+    @number1 = params[:number1]
     erb :multiply
   end
 
