@@ -20,7 +20,7 @@ class App < Sinatra::Base
   end
 
   get '/multiply' do
-    
+    erb :multiply
   end
 
 
