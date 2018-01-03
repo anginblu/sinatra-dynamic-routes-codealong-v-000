@@ -20,6 +20,7 @@ class App < Sinatra::Base
   end
 
   post '/multiply/:number1/:number2' do
+    
     erb :multiply
   end
 
